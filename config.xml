@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" version="1.0.0" id="org.pauloroberto.cenouraapp">
+    <name>Só de Cenoura</name>
+    <description>Menu do restaurante Só de Cenoura</description>
+    <author href="http://pauloroberto.org" email="qualquer@pauloroberto.org">Paulo Roberto</author>
+
+    <icon src="assets/images/icone_cenoura.png" />
+    <plugin name="cordova-plugin-splashscreen" />
+	<splash src="assets/images/splash.png" />
+
+	<preference name="orientation" value="portrait" />
+	<preference name="fullscreen" value="true" />
+	<platform name="android" />
+</widget>
